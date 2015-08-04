@@ -1,0 +1,5 @@
+Create = new + create
+Read = show
+Read All = index
+Update = edit + update
+Destroy = destroy
