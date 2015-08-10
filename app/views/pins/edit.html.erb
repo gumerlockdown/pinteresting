@@ -1,6 +1,18 @@
-<h1>Editing Pin</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @pin %> |
 <%= link_to 'Back', pins_path %>
+
+<div class="row">
+	<div class="col-md-offset-2 col-md-8">
+		<div class="panel panel-default">
+		<div class="panel-heading left">
+			<%= render 'form' %>
+		</div>
+		<div class="panel-body">
+			<%= link_to @pin do %>
+			<span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
+			View
+			<% end %>
+		</div>
+		</div>
+	</div>
+</div>
+
